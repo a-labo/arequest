@@ -1,0 +1,49 @@
+{
+  "name": "arequest",
+  "version": "2.0.2",
+  "description": "Promise base request module",
+  "main": "lib",
+  "browser": "browser",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js"
+  },
+  "repository": "okunishinishi/node-arequest",
+  "keywords": [
+    "promise",
+    "request"
+  ],
+  "author": {
+    "email": "okunishitaka.com@gmail.com",
+    "name": "Taka Okunishi",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okunishinishi/node-arequest/issues"
+  },
+  "homepage": "https://github.com/okunishinishi/node-arequest#readme",
+  "dependencies": {
+    "argx": "^2.0.2",
+    "co": "^4.6.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "ape-compiling": "^4.3.3",
+    "ape-covering": "^3.0.3",
+    "ape-formatting": "^1.0.0",
+    "ape-releasing": "^4.0.1",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.2",
+    "ape-testing": "^4.0.0",
+    "ape-tmpl": "^5.0.10",
+    "ape-updating": "^4.0.2",
+    "coz": "^6.0.3",
+    "filedel": "^2.0.1",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
