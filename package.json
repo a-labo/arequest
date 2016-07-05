@@ -1,6 +1,6 @@
 {
   "name": "arequest",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Promise base request module",
   "main": "lib",
   "browser": "browser",
