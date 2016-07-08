@@ -1,6 +1,6 @@
 {
   "name": "arequest",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Promise base request module",
   "main": "lib",
   "browser": "browser",
@@ -37,7 +37,7 @@
     "ape-tasking": "^4.0.2",
     "ape-testing": "^4.0.0",
     "ape-tmpl": "^5.0.10",
-    "ape-updating": "^4.0.2",
+    "ape-updating": "^4.0.4",
     "coz": "^6.0.3",
     "filedel": "^2.0.1",
     "injectmock": "^2.0.0"
