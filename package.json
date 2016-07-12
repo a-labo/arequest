@@ -1,14 +1,14 @@
 {
   "name": "arequest",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Promise base request module",
   "main": "lib",
-  "browser": "browser",
+  "browser": "sims/browser",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js"
+    "prepublish": "./ci/build.js && ./ci/browser.js"
   },
-  "repository": "okunishinishi/node-arequest",
+  "repository": "a-labo/arequest",
   "keywords": [
     "promise",
     "request"
@@ -20,13 +20,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okunishinishi/node-arequest/issues"
+    "url": "https://github.com/a-labo/arequest/issues"
   },
-  "homepage": "https://github.com/okunishinishi/node-arequest#readme",
+  "homepage": "https://github.com/a-labo/arequest#readme",
   "dependencies": {
     "argx": "^2.0.2",
     "co": "^4.6.0",
-    "request": "^2.72.0"
+    "request": "^2.73.0"
   },
   "devDependencies": {
     "ape-compiling": "^4.3.3",
