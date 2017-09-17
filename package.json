@@ -1,12 +1,11 @@
 {
   "name": "arequest",
-  "version": "2.0.8",
+  "version": "3.0.1",
   "description": "Promise base request module",
   "main": "lib",
-  "browser": "shim/browser",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js && ./ci/browser.js"
+    "prepare": "./ci/build.js"
   },
   "repository": "a-labo/arequest",
   "keywords": [
@@ -25,25 +24,21 @@
   "homepage": "https://github.com/a-labo/arequest#readme",
   "dependencies": {
     "argx": "^3.0.1",
-    "co": "^4.6.0",
     "request": "^2.74.0"
   },
   "devDependencies": {
-    "ababel": "^1.0.25",
-    "ababel-es2015": "^1.0.5",
-    "amocha": "^1.0.11",
+    "amocha": "^3.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
-    "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
-    "ape-tmpl": "^5.0.15",
+    "ape-tmpl": "^6.0.0",
     "ape-updating": "^4.0.5",
     "coz": "^6.0.16",
-    "filedel": "^2.0.3",
+    "filedel": "^3.0.0",
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=3"
+    "node": ">=7.6",
+    "npm": ">=4"
   }
 }
